@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WhenDue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="legal">
+  <h1>WhenDue</h1>
+  <p>WhenDue is a minimal countdown app that shows how much time is left until an important date.</p>
+
+  <p>You can track exams, trips, deadlines, birthdays or any future event in a clean and distraction-free way.</p>
+
+  <p>The app runs directly in your browser and can be installed on your phone.</p>
+
+  <p>
+    <a href="privacy.html">Privacy Policy</a> · 
+    <a href="terms.html">Terms of Service</a>
+  </p>
+</div>
+<div id="app">
+
+  <div id="mainView">
+    <div id="time">
+      <div id="days">0</div>
+      <div id="clock">00:00:00</div>
+    </div>
+
+    <div id="eventName">No event</div>
+    <div id="eventDate">Set a date</div>
+
+    <button id="editBtn">Edit</button>
+  </div>
+
+  <div id="editView" class="hidden">
+    <input id="nameInput" placeholder="Event name">
+    <input id="dateInput" type="date">
+    <button id="saveBtn">Save</button>
+  </div>
+
+  <!-- Ads banner -->
+  <div id="adBanner">
+    <div>Ad space</div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
